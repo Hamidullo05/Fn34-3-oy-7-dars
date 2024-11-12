@@ -101,13 +101,93 @@ h4 {
 }
 @media screen and (max-width:1200px) {
     
-    .container [
+    .container {
         max-width: 87%;
-        
-        margin: 0 auto;
-        
-    ]
+    
+    }
+    .price {
+        width: 300px;
+    }
+    .price img {
+        width: 300px;
+    }
 }
 @media screen and (max-width:992px) {
+    .handle {
+        
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        gap: 20px;
+        padding-right: 10px;
 
+     
+        
+    }
+    .price {
+        width: 200px;
+    }
+    .price img {
+        width: 200px;
+    }
+    .handle img {
+        width: 210px;
+        
+    }
+    .nam0 {
+    
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
+@media screen and (max-width:768px) {
+    .nam0 {
+      
+        display: inline;
+    }
+    .handle img {
+        width: 0;
+        height: 0;
+    }
+    .handle {
+        margin-left: 47px;
+    }
+    
+    .price_container {
+        display: inline;
+        border-top:  solid #000;
+    
+    
+        width: 100%;
+    
+    .price {
+        width: 100%;
+        margin-top: 40px;
+        
+    }
+    .price img {
+        width: 100%;
+    }h1 {
+        font-size: 50px;
+        font-weight: 600;
+        
+    }
+    p {
+        font-size: 30px;
+        font-weight: 6000;
+        
+        
+    }
+    h4 {
+        font-size: 25px;
+        font-weight: 600;
+
+        
+    }
+   
+   
+}
+@media screen and(max-width:576px) {
+    
+    
 }
